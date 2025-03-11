@@ -1,4 +1,7 @@
-@host=http://localhost:3000
+@host=http://localhost:3000/api/v1
 
-## Get Request For App Controller
+## GET Request for Home
 GET {{ host }}
+
+## GET Request for All Users
+GET {{ host }}/users
