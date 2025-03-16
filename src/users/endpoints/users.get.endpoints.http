@@ -7,4 +7,4 @@ GET {{ host }}/users
 GET {{ host }}/users/1
 
 ## GET Request for All Users with Pagination and Limit per Page
-GET {{ host }}/users?limit=~&page=1
+GET {{ host }}/users?limit=10&page=1
