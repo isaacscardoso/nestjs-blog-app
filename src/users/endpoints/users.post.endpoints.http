@@ -1,0 +1,10 @@
+@host=http://localhost:3000/api/v1
+
+## POST Request for Add User
+POST {{ host }}/users
+Content-Type: application/json
+{
+  "firstName": "Isaac",
+  "email": "isaac@gmail.com",
+  "password": "Isaac@123"
+}

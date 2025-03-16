@@ -2,6 +2,3 @@
 
 ## GET Request for Home
 GET {{ host }}
-
-## GET Request for All Users
-GET {{ host }}/users
